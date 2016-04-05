@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Democracy\n"
 "POT-Creation-Date: 2015-09-26 22:41+0500\n"
-"PO-Revision-Date: 2016-04-05 14:49+0200\n"
+"PO-Revision-Date: 2016-04-05 15:39+0200\n"
 "Last-Translator: Frank Staude <frank@staude.net>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -524,7 +524,7 @@ msgstr "Umfrage bearbeiten"
 
 #: admin/admin_page.php:596
 msgid "шоткод для использования в записи"
-msgstr ""
+msgstr "Shortcode für die Verwendung"
 
 # Question:
 #: admin/admin_page.php:619
@@ -790,7 +790,7 @@ msgstr "Von deiner IP-Adresse wurde bereits abgestimmt."
 # Allows to create democratic polls. Visitors can vote for more than one answer & add their own answers.
 #: democracy.php:3
 msgid "Позволяет удобно создавать демократические опросы. Пользователи могут голосовать за несколько вариантов ответа или добавлять свои собственные ответы."
-msgstr "Du kannst bequem demokratische Umfragen erstellen. Benutzer konnen fur mehrere Antworten stimmen oder ihre eigenen Antworten hinzufügen."
+msgstr "Du kannst bequem demokratische Umfragen erstellen. Benutzer können für mehrere Antworten stimmen oder ihre eigenen Antworten hinzufügen."
 
 # What does \"money\" mean to you?
 #: democracy.php:186
