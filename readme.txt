@@ -1,6 +1,6 @@
 === Plugin Name ===
-Stable tag: 5.1.1
-Tested up to: 4.3.1
+Stable tag: 5.1.2
+Tested up to: 4.4.2
 Requires at least: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,14 @@ AJAX democratic polls for your site. Visitors can vote more than one answer & ad
 
 
 == Changelog ==
+
+= 5.1.2 =
+* Forked from Democracy Poll to RW Democracy Poll
+* fixed german translation
+* Get CSS without saved layouts on settingspage
+* add blogid in cookiename for multisite support
+* add GitHub Updater Support
+
 = 5.1.1 =
 * SEO Fix: Now sets 404 response and "noindex" head tag for duplicate pages with: $_GET['dem_act'] or $_GET['dem_pid'] or $_GET['show_addanswerfield']
 

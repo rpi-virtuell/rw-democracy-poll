@@ -3,14 +3,16 @@
 __('Позволяет удобно создавать демократические опросы. Пользователи могут голосовать за несколько вариантов ответа или добавлять свои собственные ответы.', 'dem');
 
 /*
-Plugin Name: Democracy Poll
-Description: Позволяет удобно создавать демократические опросы. Пользователи могут голосовать за несколько вариантов ответа или добавлять свои собственные ответы.
-Author: Kama
-Author URI: http://wp-kama.ru/
-Plugin URI: http://wp-kama.ru/id_67/plagin-oprosa-dlya-wordpress-democracy-poll.html
-Text Domain: dem
-Domain Path: lang
-Version: 5.1.1
+ * Plugin Name: 	  RW Democracy Poll
+ * Description: 	  Du kannst bequem demokratische Umfragen erstellen. Benutzer können für mehrere Antworten stimmen oder ihre eigenen Antworten hinzufügen.
+ * Author: 		 	  f.staude
+ * Author URI: 		  https://www.staude.net
+ * Plugin URI: 		  https://github.com/rpi-virtuell/rw-democracy-poll
+ * Text Domain: 	  dem
+ * Domain Path: 	  lang
+ * Version: 		  5.1.2
+ * GitHub Plugin URI: https://github.com/rpi-virtuell/rw-democracy-poll
+ * GitHub Branch:     master
 */
 
 if( defined('WP_INSTALLING') && WP_INSTALLING ) return;
