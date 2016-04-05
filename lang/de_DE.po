@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Democracy\n"
 "POT-Creation-Date: 2015-09-26 22:41+0500\n"
-"PO-Revision-Date: 2016-04-05 14:40+0200\n"
+"PO-Revision-Date: 2016-04-05 14:49+0200\n"
 "Last-Translator: Frank Staude <frank@staude.net>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -392,7 +392,7 @@ msgstr "Diese Option ist fur jede Umfrage separat einstellbar. Wenn Du mochtes, 
 # Prohibit users to add new answers (global Democracy option).
 #: admin/admin_page.php:465
 msgid "Запретить пользователям добавлять свои ответы (глобальная опция Democracy)."
-msgstr "Verhindern, dass Benutzer neue Antworten hinzufugen (globale Option)."
+msgstr "Verhindern, dass Benutzer neue Antworten hinzufügen (globale Option)."
 
 # This option is available for each poll separately, but if you heed you can turn OFF the option for all polls at once, just tick.
 #: admin/admin_page.php:467 admin/admin_page.php:475
@@ -467,7 +467,7 @@ msgstr "Umfrage-Menu im Toolbar zeigen"
 # Add fast Poll insert button to WordPress visual editor (TinyMCE)?
 #: admin/admin_page.php:525
 msgid "Добавить кнопку быстрой вставки опросов в редактор WordPress (TinyMCE)?"
-msgstr "Button zum leichten Einfugen von Umfragen im WordPress-Editor(TinyMCE) hinzufugen"
+msgstr "Button zum leichten Einfügen von Umfragen im WordPress-Editor(TinyMCE) hinzufügen"
 
 # Uncheck to disable button in visual editor.
 #: admin/admin_page.php:527
@@ -539,7 +539,7 @@ msgstr "Antworten"
 # Allow users to add answers (democracy).
 #: admin/admin_page.php:653
 msgid "Разрешить пользователям добавлять свои ответы (democracy)."
-msgstr "Benutzern erlauben, ihre eigenen Antworten hinzuzufugen"
+msgstr "Benutzern erlauben, ihre eigenen Antworten hinzuzufügen"
 
 # Activate this poll.
 #: admin/admin_page.php:664
@@ -578,7 +578,7 @@ msgstr "Anderungen speichern"
 # Add Poll
 #: admin/admin_page.php:721 class.DemInit.php:87
 msgid "Добавить опрос"
-msgstr "Umfrage hinzufugen"
+msgstr "Umfrage hinzufügen"
 
 #: admin/admin_page.php:771
 msgid "← Назад"
@@ -592,7 +592,7 @@ msgstr "Liste der Umfragen"
 # Add new poll
 #: admin/admin_page.php:774
 msgid "Добавить новый опрос"
-msgstr "Neue Umfrage hinzufugen"
+msgstr "Neue Umfrage hinzufügen"
 
 # Settings
 #: admin/admin_page.php:775 admin/class.DemAdminInit.php:45 class.DemInit.php:89
@@ -672,7 +672,7 @@ msgstr "Die Umfrage wurde aktualisiert"
 # Insert Poll of Democracy
 #: admin/class.DemAdminInit.php:590
 msgid "Вставка Опроса Democracy"
-msgstr "Einfugen einer Umfrage"
+msgstr "Einfügen einer Umfrage"
 
 # Insert Poll ID
 #: admin/class.DemAdminInit.php:591
@@ -701,7 +701,7 @@ msgstr "Democracy Poll herunterladen"
 # Add your answer
 #: class.DemPoll.php:221
 msgid "Добавить свой ответ"
-msgstr "Fuge deine Antwort hinzu"
+msgstr "Füge deine Antwort hinzu"
 
 #: class.DemPoll.php:229
 msgid "Уже голосовали..."
@@ -790,7 +790,7 @@ msgstr "Von deiner IP-Adresse wurde bereits abgestimmt."
 # Allows to create democratic polls. Visitors can vote for more than one answer & add their own answers.
 #: democracy.php:3
 msgid "Позволяет удобно создавать демократические опросы. Пользователи могут голосовать за несколько вариантов ответа или добавлять свои собственные ответы."
-msgstr "Du kannst bequem demokratische Umfragen erstellen. Benutzer konnen fur mehrere Antworten stimmen oder ihre eigenen Antworten hinzufugen."
+msgstr "Du kannst bequem demokratische Umfragen erstellen. Benutzer konnen fur mehrere Antworten stimmen oder ihre eigenen Antworten hinzufügen."
 
 # What does \"money\" mean to you?
 #: democracy.php:186
