@@ -35,8 +35,14 @@ class DemPoll {
 		$this->id = (int) $poll->id;
 		
 		if( ! $this->id ) return; // влияет на весь класс, важно!
-		
-		$this->cookey = 'demPoll_' . $this->id;
+
+		// IF WPMU, use BlogID
+		if ( is_multisite() ) {
+			$this->cookey = 'demPoll_' . get_current_blog_id() . '_' . $this->id;
+		} else {
+			$this->cookey = 'demPoll_' . $this->id;
+		}
+
 		$this->poll   = $poll;
 		
 		// отключим демокраси опцию
