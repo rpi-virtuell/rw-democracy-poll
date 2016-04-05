@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Democracy\n"
 "POT-Creation-Date: 2015-09-26 22:41+0500\n"
-"PO-Revision-Date: 2015-09-26 22:41+0500\n"
-"Last-Translator: Xrizzy <xrizzy@web.de>\n"
+"PO-Revision-Date: 2016-04-05 14:40+0200\n"
+"Last-Translator: Frank Staude <frank@staude.net>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -43,7 +43,7 @@ msgstr "Bist du sicher?"
 
 #: admin/DemLogs_List_Table.php:89
 msgid "Удалить логи опроса"
-msgstr ""
+msgstr "Löschen"
 
 #: admin/DemLogs_List_Table.php:91
 msgid "Логи опроса: "
@@ -60,7 +60,7 @@ msgstr "Bearbeiten"
 
 #: admin/DemLogs_List_Table.php:129
 msgid "Логи опроса"
-msgstr ""
+msgstr "Umfrage"
 
 # ID
 #: admin/DemPolls_List_Table.php:50
@@ -96,11 +96,11 @@ msgstr "Hinzugefugt"
 
 #: admin/DemPolls_List_Table.php:107
 msgid "Пользователи могут добавить свои ответы (democracy)."
-msgstr ""
+msgstr "Benutzern erlauben, Antworten hinzuzufügen (Demokratie)."
 
 #: admin/DemPolls_List_Table.php:108
 msgid "Пользователи могут изменить мнение (переголосование)."
-msgstr ""
+msgstr "Benutzer können ihre Meinung ändern."
 
 # Are only registered users allowed to vote?
 #: admin/DemPolls_List_Table.php:109 admin/admin_page.php:699
@@ -279,7 +279,7 @@ msgstr "Kein Design verwenden"
 msgid ""
 "В этом поле вы можете дополнить или заменить css стили. Впишите сюда произвольные css стили и они будут добавлены винзу стилей текущей темы. Чтобы полностью заменить тему отметте \"Не использовать тему\" и впишите сюда свои стили.<br>\n"
 "                    Это поле очищается вручную, если сбросить стили или поставить другую тему, данные в этом поле сохраняться и просто будут добавлены внизу текущих css стилей."
-msgstr ""
+msgstr "In diesem Bereich kannst Du eigenes CSS hinzufügen oder die CSS-Stile ändern."
 
 #: admin/admin_page.php:341 admin/admin_page.php:534
 msgid "Сбросить настройки на начальные"
@@ -582,7 +582,7 @@ msgstr "Umfrage hinzufugen"
 
 #: admin/admin_page.php:771
 msgid "← Назад"
-msgstr ""
+msgstr "← Zurück"
 
 # Polls List
 #: admin/admin_page.php:773 class.DemInit.php:86
@@ -691,7 +691,7 @@ msgstr "Umfragen-Archiv"
 
 #: class.DemInit.php:90
 msgid "Дизайн"
-msgstr ""
+msgstr "Umfrage Design"
 
 # Download the Democracy Poll
 #: class.DemPoll.php:115
@@ -705,7 +705,7 @@ msgstr "Fuge deine Antwort hinzu"
 
 #: class.DemPoll.php:229
 msgid "Уже голосовали..."
-msgstr ""
+msgstr "Du hast bereits abgestimmt."
 
 # Vote
 #: class.DemPoll.php:230 class.DemPoll.php:347
