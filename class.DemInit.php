@@ -302,31 +302,17 @@ class Dem{
 	
 	## добавляет стили в WP head
 	function add_css(){
-		static $once; if( $once ) return; $once=1; // выполняем один раз!
+		//static $once; if( $once ) return "111"; $once=1; // выполняем один раз!
 		
         $demcss = get_option('democracy_css');
         $minify = @$demcss['minify'];
-		
-		if( ! $minify ) return;
-					
-		// пробуем подключить сжатые версии файлов		
-//		$css_name = rtrim( $css_name, '.css');
-//		$css      = 'styles/' . $css_name;
-//		$cssurl   = DEMOC_URL  . "$css.min.css";
-//		$csspath  = DEMOC_PATH . "$css.min.css";
-//		
-//		if( ! file_exists( $csspath ) ){
-//			$cssurl   = DEMOC_URL  . "$css.css";
-//			$csspath  = DEMOC_PATH . "$css.css";
-//		}
 
-		// inline HTML
-//		if( self::$opt['inline_js_css'] )
+		if( ! $minify ) {
+			$file = file_get_contents( DEMOC_PATH ."styles/_preset.css");
+			return "\n<!--democracy-->\n" .'<style type="text/css">'. $file .'</style>'."\n";
+		} else {
 			return "\n<!--democracy-->\n" .'<style type="text/css">'. $minify .'</style>'."\n";
-		
-//		else{
-//			add_action('wp_enqueue_scripts', function() use ($cssurl){ wp_enqueue_style('democracy', $cssurl, array(), DEM_VER ); } );
-//		}
+		}
 	}
     	
 	## добавляет скрипты в подвал
