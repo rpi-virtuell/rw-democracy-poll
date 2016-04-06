@@ -10,7 +10,7 @@ __('Позволяет удобно создавать демократичес�
  * Plugin URI: 		  https://github.com/rpi-virtuell/rw-democracy-poll
  * Text Domain: 	  dem
  * Domain Path: 	  lang
- * Version: 		  5.1.3
+ * Version: 		  5.1.4
  * GitHub Plugin URI: https://github.com/rpi-virtuell/rw-democracy-poll
  * GitHub Branch:     master
 */

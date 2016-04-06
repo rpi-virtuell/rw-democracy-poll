@@ -1,5 +1,5 @@
 === Plugin Name ===
-Stable tag: 5.1.3
+Stable tag: 5.1.4
 Tested up to: 4.4.2
 Requires at least: 3.0
 License: GPLv2 or later
@@ -12,6 +12,10 @@ AJAX democratic polls for your site. Visitors can vote more than one answer & ad
 
 
 == Changelog ==
+
+= 5.1.4 =
+* css loader improvment
+* 100% german translation
 
 = 5.1.3 =
 * move menu entry from settings to pages
