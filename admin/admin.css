@@ -26,7 +26,7 @@ background: #fff; }
 .democr_options .loaders:after, .democr_options .buttons:after, .polls-preview:after{ content:''; display:table; clear:both; }
 
 .democr_options .loaders .left{ float:left; text-align:center; margin-right:15px; height:85px; }
-.democr_options .loaders .loader{ min-width:30px; margin-bottom: 5px; }
+.democr_options .loaders .loader {  margin-bottom: 5px;  max-width: 40px;  min-width: 30px;  }
 .democr_options .loaders:after, .democr_options .loaders em{ content:''; display: table; clear: both; }
 
 .democr_options .buttons label{ display:inline-block; text-align: center; margin-bottom:2em; }
