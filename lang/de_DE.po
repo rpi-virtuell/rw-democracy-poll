@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Democracy\n"
 "POT-Creation-Date: 2015-09-26 22:41+0500\n"
-"PO-Revision-Date: 2016-04-05 15:39+0200\n"
+"PO-Revision-Date: 2016-04-06 17:16+0200\n"
 "Last-Translator: Frank Staude <frank@staude.net>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: admin/DemLogs_List_Table.php:55
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: admin/DemLogs_List_Table.php:56
 msgid "Опрос"
@@ -47,11 +47,11 @@ msgstr "Löschen"
 
 #: admin/DemLogs_List_Table.php:91
 msgid "Логи опроса: "
-msgstr ""
+msgstr "Logs Umfrage:"
 
 #: admin/DemLogs_List_Table.php:118
 msgid "Поиск по IP"
-msgstr ""
+msgstr "Suche nach IP"
 
 # Edit
 #: admin/DemLogs_List_Table.php:128 admin/DemPolls_List_Table.php:118
@@ -311,7 +311,7 @@ msgstr "Suchen"
 
 #: admin/admin_page.php:388
 msgid "Запись логов выключена в настройках - логи не записываются."
-msgstr ""
+msgstr "Protokollierung ist ausgeschaltet, die Protokolle werden nicht aufgezeichnet."
 
 # Log data & take visitor IP into consideration? (recommended)
 #: admin/admin_page.php:414
@@ -353,7 +353,7 @@ msgstr "Frage"
 
 #: admin/admin_page.php:434
 msgid "Например: <code>&lt;h2&gt;</code> и <code>&lt;/h2&gt;</code>. По умолчанию: <code>&lt;strong class=&quot;dem-poll-title&quot;&gt;</code> и <code>&lt;/strong&gt;</code>."
-msgstr ""
+msgstr "Beispiel: <code>&lt;h2&gt;</code> & <code>&lt;/h2&gt;</code>. Standard: <code>&lt;strong class=&quot;dem-poll-title&quot;&gt;</code> & <code>&lt;/strong&gt;</code>."
 
 # Polls archive page ID.
 #: admin/admin_page.php:441
@@ -505,7 +505,7 @@ msgstr "Zeige Copyright-Hinweis"
 
 #: admin/admin_page.php:563
 msgid "Ссылка на страницу плагина выводиться только на главной в виде значка &copy;. И помогает другим людям узнать что это за плагин и установить его себе. Прошу не убирать эту галку без острой необходимости. Спасибо!"
-msgstr ""
+msgstr "Link zur Plugin-Seite wird nur als Symbol angezeigt ©. Das hilft anderen Menschen mehr über dieses Plugin herauszufinden und selber zu installieren. Bitte entferne es nicht ohne dringende Notwendigkeit. Danke!"
 
 # Widget
 #: admin/admin_page.php:569
