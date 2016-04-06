@@ -58,7 +58,7 @@ class Dem{
     
     ## Инициализирует основные хуки Democracy вешается на хук plugins_loaded.
     function dem_init(){
-		$this->user_access = current_user_can('manage_options');
+		$this->user_access = current_user_can('edit_posts');
 		
 		$this->load_textdomain();
         
@@ -130,7 +130,7 @@ class Dem{
 	function admin_page_url(){
 		static $url;
 		if( ! $url )
-			$url = admin_url('options-general.php?page='. basename( DEMOC_PATH ) );
+			$url = admin_url('edit.php?post_type=page&page='. basename( DEMOC_PATH ) );
 		
 		return $url;
 	}	

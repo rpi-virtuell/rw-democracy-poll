@@ -20,7 +20,7 @@ class DemAdminInit extends Dem{
 	
 	## Страница плагина
 	function register_option_page(){
-		$hook_name = add_options_page(__('Опрос Democracy','dem'), __('Опрос Democracy','dem'), 'manage_options', basename( DEMOC_PATH ), array( $this, 'admin_page_output') );
+		$hook_name = add_pages_page(__('Опрос Democracy','dem'), __('Опрос Democracy','dem'), 'edit_posts', basename( DEMOC_PATH ), array( $this, 'admin_page_output') );
 		add_action("load-$hook_name", array( $this, 'admin_page_load') );
 	}
     

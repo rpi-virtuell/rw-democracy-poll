@@ -1,5 +1,5 @@
 === Plugin Name ===
-Stable tag: 5.1.2
+Stable tag: 5.1.3
 Tested up to: 4.4.2
 Requires at least: 3.0
 License: GPLv2 or later
@@ -12,6 +12,10 @@ AJAX democratic polls for your site. Visitors can vote more than one answer & ad
 
 
 == Changelog ==
+
+= 5.1.3 =
+* move menu entry from settings to pages
+* change capabillity to edit polls from "manage_options" to "edit_posts"
 
 = 5.1.2 =
 * Forked from Democracy Poll to RW Democracy Poll
